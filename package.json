@@ -1,0 +1,23 @@
+{
+  "name": "payzone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 20000 test/first.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.3.2",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "chromedriver": "^90.0.0",
+    "express": "^4.17.1"
+  }
+}
